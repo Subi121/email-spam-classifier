@@ -7,7 +7,7 @@
 
 A Machine Learning–based spam email detection system that classifies emails as **Spam** or **Ham (Not Spam)** using Naive Bayes classifiers with Bag of Words and TF-IDF feature extraction.
 
----
+
 
 ## 🎯 Objective
 
@@ -16,7 +16,7 @@ A Machine Learning–based spam email detection system that classifies emails as
 * Compare different Naive Bayes models
 * Evaluate performance using Accuracy, Precision, Recall, and F1 Score
 
----
+
 
 ## 📁 Dataset
 
@@ -29,9 +29,9 @@ A Machine Learning–based spam email detection system that classifies emails as
 | Missing values | None |
 | Train / Test split | 80% / 20% (`random_state=42`) |
 
-> Dataset file is not included in this repository. Place `emails.csv` in the project root before running.
 
----
+
+
 
 ## 🛠️ Technologies Used
 
@@ -42,7 +42,7 @@ A Machine Learning–based spam email detection system that classifies emails as
   * `CountVectorizer`, `TfidfVectorizer`
   * `MultinomialNB`, `GaussianNB`
 
----
+
 
 ## 📂 Project Structure
 
@@ -54,7 +54,7 @@ spam-detection/
 └── README.md
 ```
 
----
+
 
 ## 🚀 Setup & Run
 
@@ -65,7 +65,7 @@ pip install -r requirements.txt
 jupyter notebook spam_detection.ipynb
 ```
 
----
+
 
 ## 📂 Workflow
 
@@ -76,7 +76,7 @@ jupyter notebook spam_detection.ipynb
 5. Train Naive Bayes models
 6. Evaluate and compare model performance
 
----
+
 
 ## 🤖 Models
 
@@ -89,7 +89,7 @@ Uses TF-IDF features with Multinomial NB and achieves perfect Precision (1.0) �
 ### 3. TF-IDF + Gaussian NB
 Uses Gaussian NB on TF-IDF features. Achieves higher Recall and F1 Score but lower Precision.
 
----
+
 
 ## 📊 Results
 
@@ -104,7 +104,7 @@ Uses Gaussian NB on TF-IDF features. Achieves higher Recall and F1 Score but low
 In spam filtering, a **false positive** (blocking a real email) is more harmful than a **false negative** (letting spam through).
 A Precision of **1.0** means the model never incorrectly marks a legitimate email as spam — making it the safest choice for a real inbox filter.
 
----
+
 
 ## ✨ Features
 
@@ -113,7 +113,7 @@ A Precision of **1.0** means the model never incorrectly marks a legitimate emai
 * Comparison of three Naive Bayes models
 * Performance evaluation using four classification metrics
 
----
+
 
 ## 📌 Use Cases
 
@@ -122,7 +122,7 @@ A Precision of **1.0** means the model never incorrectly marks a legitimate emai
 * Phishing email detection
 * Cybersecurity monitoring
 
----
+
 
 ## 🔭 Future Improvements
 
@@ -131,7 +131,7 @@ A Precision of **1.0** means the model never incorrectly marks a legitimate emai
 * Add confusion matrix visualization
 * Compare with Logistic Regression and SVM
 
----
+
 
 ## 📈 Conclusion
 
