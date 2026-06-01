@@ -54,8 +54,8 @@ spam-detection/
 
 ## 🚀 Setup & Run
 ```bash
-git clone https://github.com/your-username/spam-detection.git
-cd spam-detection
+git clone https://github.com/Subi121/email-spam-classifier.git
+cd email-spam-classifier
 pip install -r requirements.txt
 jupyter notebook spam_detection.ipynb
 ```
