@@ -44,7 +44,7 @@ A Machine Learning–based spam email detection system that classifies emails as
 ## 📂 Project Structure
 ```bash
 spam-detection/
-├── emails.csv              # Not included — see Dataset section
+├── emails.csv              
 ├── spam_detection.ipynb
 ├── requirements.txt
 └── README.md
